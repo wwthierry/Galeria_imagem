@@ -9,18 +9,19 @@
   
   <style>
     /* Estilos personalizados para um visual mais agradável */
-    body { background-color: #f8f9fa; }
-    .upload-section { background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1); }
+    body { background-color: #000000; }
+    .upload-section { background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 0.5rem 1rem rgba(34, 0, 48, 0.692); }
     .gallery-item .card { transition: transform 0.2s; }
     .gallery-item .card:hover { transform: scale(1.05); }
     .card-img-top { width: 100%; height: 200px; object-fit: cover; }
+    h1{color: rgb(34, 0, 48) !important;}
   </style>
 </head>
 <body>
 
   <div class="container my-5">
     <div class="upload-section col-lg-8 mx-auto">
-      <h1 class="text-center mb-4">Upload para Vercel Blob</h1>
+      <h1 class="text-center mb-4" >Upload para Vercel Blob</h1>
       <form id="uploadForm">
         <div class="input-group">
           <input type="file" class="form-control" id="fileInput" name="file" required accept="image/*">
@@ -31,7 +32,7 @@
     </div>
 
     <hr class="my-5">
-    <h2 class="text-center mb-4">Galeria de Imagens</h2>
+    <h2 class="text-center mb-4 text-white">Galeria de Imagens</h2>
     <div id="gallery" class="row"></div>
   </div>
 
